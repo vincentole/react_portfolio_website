@@ -46,7 +46,7 @@
     }
 
     .form-input {
-        @apply bg-transparent border border-primary-purple w-full outline-none focus:border-primary-yellow p-2 transition-all duration-500 ease-in;
+        @apply bg-transparent border border-primary-purple rounded-sm w-full outline-none focus:border-primary-yellow p-2 transition-all duration-500 ease-in;
     }
 
     .form-label {
@@ -64,25 +64,25 @@
 .form-animation input:focus + label {
     color: var(--purple);
     font-size: 0.85rem;
-    transform: translateY(-1.5rem) rotateX(360deg);
+    transform: translateY(-1.6rem) rotateX(360deg);
 }
 
 .form-animation input:not(:placeholder-shown) + label {
     color: var(--purple);
     font-size: 0.85rem;
-    transform: translateY(-1.5rem) rotateX(360deg);
+    transform: translateY(-1.6rem) rotateX(360deg);
 }
 
 .form-animation textarea:focus + label {
     color: var(--purple);
     font-size: 0.85rem;
-    transform: translateY(-1.85rem) rotateX(360deg);
+    transform: translateY(-2rem) rotateX(360deg);
 }
 
 .form-animation textarea:not(:placeholder-shown) + label {
     color: var(--purple);
     font-size: 0.85rem;
-    transform: translateY(-1.85rem) rotateX(360deg);
+    transform: translateY(-2rem) rotateX(360deg);
 }
 
 /* Button Animation */

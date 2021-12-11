@@ -1,4 +1,5 @@
 import React from 'react';
+import NavItem from './NavItem';
 
 function Footer() {
     return (
@@ -14,11 +15,7 @@ function Footer() {
                 <nav className='flex space-x-10'>
                     {/* Main Nav Start */}
                     <ul className='flex items-center space-x-8'>
-                        <li>
-                            <a className='group' href='#body'>
-                                <span className='nav-item-last-span'>up</span>()
-                            </a>
-                        </li>
+                        <NavItem href='#top' classText='' functionText='up' />
                     </ul>
                     {/* Main Nav End */}
 

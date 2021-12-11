@@ -53,7 +53,7 @@ function Contact() {
                         <span className='text-primary-purple'>send</span>()
                         {/* Button Animation Start  */}
                         <div className='btn-animation__border-tb absolute inset-0 pointer-events-none border-t border-b border-primary-yellow'></div>
-                        <div className='btn-animation__border absolute inset-0 pointer-events-none border border-primary-purple'></div>
+                        <div className='btn-animation__border absolute inset-0 pointer-events-none border border-primary-purple rounded-sm'></div>
                         {/* Button Animation End  */}
                     </button>
                 </form>
