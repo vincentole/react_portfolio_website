@@ -1,5 +1,5 @@
 import React from 'react';
-import NavItemSocial from './IconLink';
+import IconLink from './IconLink';
 import BioTechListItem from './BioTechListItem';
 import { technologies } from '../data/technologiesData';
 import { svgGitHub, svgLinkedIn, svgEmail } from './icons';
@@ -16,8 +16,8 @@ function Bio() {
                     {/* Text and Tech Start */}
                     <div className=''>
                         {/* About Text Start */}
-                        {/* border-gradient - class for rgb border */}
-                        <div className='bg-primary-dark space-y-4'>
+                        {/* className="border-gradient bg-primary-dark" - class for rgb border */}
+                        <div className='space-y-4'>
                             <p>
                                 I am <span className='text-primary-purple'>passionate</span> about exploring new technology and the ever-increasing possibilities in software engineering.
                             </p>
@@ -52,9 +52,15 @@ function Bio() {
                         <h3 className='font-bold text-primary-yellow mt-8 mb-2'>Connect with me:</h3>
                         {/* Connect Nav Start */}
                         <ul className='social-nav'>
-                            <NavItemSocial svg={svgGitHub} href='https://github.com/vincentole' ariaLabel='Visite my GitHub Profile' />
-                            <NavItemSocial svg={svgLinkedIn} href='https://www.linkedin.com/in/ole-urfels' ariaLabel='Visite my LinkedIn Profile' />
-                            <NavItemSocial svg={svgEmail} href='mailto:ole.urfels@outlook.de' ariaLabel='Write me an Email' />
+                            <li>
+                                <IconLink svg={svgGitHub} iconClass='icon' href='https://github.com/vincentole' ariaLabel='Visite my GitHub Profile' />
+                            </li>
+                            <li>
+                                <IconLink svg={svgLinkedIn} iconClass='icon' href='https://www.linkedin.com/in/ole-urfels' ariaLabel='Visite my LinkedIn Profile' />
+                            </li>
+                            <li>
+                                <IconLink svg={svgEmail} iconClass='icon' href='mailto:ole.urfels@outlook.de' ariaLabel='Write me an Email' />
+                            </li>
                         </ul>
                         {/* Connect Nav End */}
                     </div>

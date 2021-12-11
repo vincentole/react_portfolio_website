@@ -11,16 +11,16 @@ function DescriptionMobile(props) {
             <div className='flex flex-col justify-between gap-6'>
                 <div>
                     <p className='text-base'>
-                        <strong>Code</strong> {props.code}
+                        <span className='font-bold'>Code</span> {props.code}
                     </p>
                     <p className='text-base'>
-                        <strong>Layout</strong> {props.layout}
+                        <span className='font-bold'>Layout</span> {props.layout}
                     </p>
                 </div>
 
                 <div className='flex justify-center items-center gap-4 mr-4'>
                     <IconLink svg={svgGitHub} iconClass='icon-lg' href={props.githubLink} ariaLabel="Visite the project's GitHub-Repo" />
-                    <IconLink svg={svgEye} iconClass='' href={props.liveLink} ariaLabel='Visite the live project' />
+                    <IconLink svg={svgEye} iconClass='icon-eye' href={props.liveLink} ariaLabel='Visite the live project' />
                 </div>
             </div>
         </div>

@@ -16,8 +16,9 @@ const svgEmail = (iconClass) => (
     </svg>
 );
 
+
 const svgEye = (iconClass) => (
-    <svg className='w-auto h-10 fill-current text-primary-purple hover:text-primary-lightPurple hover:scale-105 transition-all ease-in-out duration-300' aria-hidden='true' focusable='false' role='img' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+    <svg className={iconClass} aria-hidden='true' focusable='false' role='img' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
         <path d='M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 00-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 000-17.47C428.89 172.28 347.8 112 255.66 112z' fill='none' stroke='currentColor' strok-linecap='round' strokeLinejoin='round' strokeWidth='32' />
         <circle cx='256' cy='256' r='80' fill='none' stroke='currentColor' strokeMiterlimit='10' strokeWidth='32' />
     </svg>
