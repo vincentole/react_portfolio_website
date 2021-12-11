@@ -34,7 +34,7 @@
     }
 
     .nav-item-last-span {
-        @apply text-primary-purple group-hover:text-primary-lightPurple group-hover:pr-[2px] transition-all duration-300 ease-in-out;
+        @apply text-primary-purple group-hover:text-primary-purplelight group-hover:pr-[2px] transition-all duration-300 ease-in-out;
     }
 
     .social-nav {
@@ -42,14 +42,14 @@
     }
 
     .icon {
-        @apply w-6 h-6 fill-current text-primary-purple hover:text-primary-lightPurple hover:scale-105 transition-all ease-in-out duration-300;
+        @apply w-6 h-6 fill-current text-primary-purple hover:text-primary-purplelight hover:scale-105 transition-all ease-in-out duration-300;
     }
     .icon-lg {
-        @apply w-8 h-8 fill-current text-primary-purple hover:text-primary-lightPurple hover:scale-105 transition-all ease-in-out duration-300;
+        @apply w-8 h-8 fill-current text-primary-purple hover:text-primary-purplelight hover:scale-105 transition-all ease-in-out duration-300;
     }
 
     .icon-eye {
-        @apply w-auto h-10 fill-current text-primary-purple hover:text-primary-lightPurple hover:scale-105 transition-all ease-in-out duration-300;
+        @apply w-auto h-10 fill-current text-primary-purple hover:text-primary-purplelight hover:scale-105 transition-all ease-in-out duration-300;
     }
 
     .form-input {

@@ -1,5 +1,5 @@
 module.exports = {
-    content: ['./src/**/*.{html,js,jsx}', './public/**/*.html'],
+    content: ['./src/**/*.{html,css,js,jsx}', './public/**/*.html'],
     theme: {
         screens: {
             xs: '450px',
@@ -16,10 +16,11 @@ module.exports = {
                     darkLight: '#484255',
                     desatBlack: '#201D26',
                     yellow: '#FFE742',
-                    darkPurple: '#A653BB',
-                    purple: '#C47BD6',
-                    lightPurple: '#DEAAEB',
                     lightBlue: '#87fffb',
+                    purple: '#C47BD6',
+                    purplestrong: '#902FA8',
+                    purpledark: '#A653BB',
+                    purplelight: '#DEAAEB',
                 },
             },
             outline: {
