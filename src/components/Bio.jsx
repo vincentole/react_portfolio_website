@@ -1,5 +1,5 @@
 import React from 'react';
-import NavItemSocial from './NavItemSocial';
+import NavItemSocial from './IconLink';
 import BioTechListItem from './BioTechListItem';
 import { technologies } from '../data/technologiesData';
 import { svgGitHub, svgLinkedIn, svgEmail } from './icons';

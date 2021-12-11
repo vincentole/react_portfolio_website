@@ -1,6 +1,6 @@
 import React from 'react';
 import NavItem from './NavItem';
-import NavItemSocial from './NavItemSocial';
+import IconLink from './IconLink';
 import { svgGitHub, svgLinkedIn } from './icons';
 
 function Header() {
@@ -29,8 +29,12 @@ function Header() {
                     </ul>
                     {/* Main Nav End // Social Nav Start */}
                     <ul className='social-nav items-center md:py-0'>
-                        <NavItemSocial svg={svgGitHub} href='https://github.com/vincentole' ariaLabel='Visite my GitHub Profile' />
-                        <NavItemSocial svg={svgLinkedIn} href='https://www.linkedin.com/in/ole-urfels' ariaLabel='Visite my LinkedIn Profile' />
+                        <li>
+                            <IconLink svg={svgGitHub} iconClass='icon' href='https://github.com/vincentole' ariaLabel='Visite my GitHub Profile' />
+                        </li>
+                        <li>
+                            <IconLink svg={svgLinkedIn} iconClass='icon' href='https://www.linkedin.com/in/ole-urfels' ariaLabel='Visite my LinkedIn Profile' />
+                        </li>
                     </ul>
                     {/* Social Nav End */}
                 </nav>

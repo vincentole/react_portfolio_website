@@ -1,13 +1,13 @@
 import React from 'react';
 
-function NavItemSocial(props) {
+function IconLink(props) {
     return (
-        <li>
+        
             <a target='_blank' href={props.href} aria-label={props.ariaLabel} rel='noopener noreferrer'>
-                {props.svg}
+                {props.svg(props.iconClass)}
             </a>
-        </li>
+        
     );
 }
 
-export default NavItemSocial;
+export default IconLink;

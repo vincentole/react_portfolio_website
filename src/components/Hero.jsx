@@ -17,32 +17,32 @@ function Hero() {
                 <br />
                 <span className='text-html -ml-4'>&lt;h1&gt;</span>
                 <h1 className='text-header-lg text-primary-yellow pointer-events-auto'>
-                    {'Hi,'.split('').map((letter) => {
+                    {'Hi,'.split('').map((letter, i) => {
                         if (letter === ' ') return ' ';
-                        return <HeroLetter text={letter} />;
+                        return <HeroLetter key={i} text={letter} />;
                     })}
                 </h1>
                 <br />
                 <h1 className='text-header-lg bg-primary-yellow text-primary-dark p-2 mt-2 pointer-events-auto'>
-                    {"I'm Ole Urfels,".split('').map((letter) => {
+                    {"I'm Ole Urfels,".split('').map((letter, i) => {
                         if (letter === ' ') return ' ';
-                        return <HeroLetter text={letter} />;
+                        return <HeroLetter key={i} text={letter} />;
                     })}
                 </h1>
                 <br />
                 <h1 className='text-header-lg text-primary-yellow pointer-events-auto'>
-                    {'web developer'.split('').map((letter) => {
+                    {'web developer'.split('').map((letter, i) => {
                         if (letter === ' ') return ' ';
-                        return <HeroLetter text={letter} />;
+                        return <HeroLetter key={i} text={letter} />;
                     })}
                 </h1>
                 <span className='text-html -ml-4 mt-1'>&lt;/h1&gt;</span>
                 <br />
                 <span className='text-html -ml-4'>&lt;p&gt;</span>
                 <p className='text-primary-purple text-base xs:text-[1.2rem] md:text-[2rem] lg:text-[2.5rem] font-black pointer-events-auto'>
-                    {'I build things for the web.'.split('').map((letter) => {
+                    {'I build things for the web.'.split('').map((letter, i) => {
                         if (letter === ' ') return ' ';
-                        return <HeroLetter text={letter} />;
+                        return <HeroLetter key={i} text={letter} />;
                     })}
                 </p>
                 <span className='text-html -ml-4 mt-2'>&lt;/p&gt;</span>
