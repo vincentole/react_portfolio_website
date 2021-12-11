@@ -1,7 +1,5 @@
 module.exports = {
-    mode: 'jit',
-    purge: ['./src/**/*.{html,js,jsx}', './public/**/*.html'],
-    content: ['./src/**/*.{js,jsx}'],
+    content: ['./src/**/*.{html,js,jsx}', './public/**/*.html'],
     theme: {
         screens: {
             xs: '450px',
@@ -21,6 +19,7 @@ module.exports = {
                     darkPurple: '#A653BB',
                     purple: '#C47BD6',
                     lightPurple: '#DEAAEB',
+                    lightBlue: '#87fffb',
                 },
             },
             outline: {

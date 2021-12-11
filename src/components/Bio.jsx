@@ -37,7 +37,7 @@ function Bio() {
                         {/* Technology List Start */}
                         <ul className='flex space-x-5'>
                             {technologies.map((tech, i) => (
-                                <BioTechListItem key={i} src={tech.src} name={tech.src} />
+                                <BioTechListItem key={i} src={tech.src} name={tech.name} />
                             ))}
                         </ul>
                         {/* Technology List End */}

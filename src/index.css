@@ -151,9 +151,9 @@
 }
 
 /* Hover Jellow Horizontal Animation */
-.hover-jello-horizontal:hover {
+.jello-horizontal {
     display: inline-block;
-    animation: jello-horizontal 0.9s both;
+    animation: jello-horizontal 1s both;
 }
 
 @keyframes jello-horizontal {

@@ -19,7 +19,7 @@ function Portfolio() {
                     <Project title={pfData[2].title} description={pfData[2].description} code={pfData[2].code} layout={pfData[2].layout} githubLink={pfData[2].liveLink} liveLink={pfData[2].liveLink} bgDefaultClass={pfData[2].bgDefaultClass} bgSquareClass={pfData[2].bgSquareClass} />
                     <DescriptionMobile title={pfData[2].title} description={pfData[2].description} code={pfData[2].code} layout={pfData[2].layout} githubLink={pfData[2].liveLink} liveLink={pfData[2].liveLink} />
                     <Project title={pfData[3].title} description={pfData[3].description} code={pfData[3].code} layout={pfData[3].layout} githubLink={pfData[3].liveLink} liveLink={pfData[3].liveLink} bgDefaultClass={pfData[3].bgDefaultClass} bgSquareClass={pfData[3].bgSquareClass} />
-                    <DescriptionMobile />
+                    <DescriptionMobile title={pfData[3].title} description={pfData[3].description} code={pfData[3].code} layout={pfData[3].layout} githubLink={pfData[3].liveLink} liveLink={pfData[3].liveLink} />
                 </div>
                 {/* Projects End  */}
             </div>

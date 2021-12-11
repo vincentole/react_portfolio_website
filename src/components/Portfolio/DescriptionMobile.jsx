@@ -9,10 +9,10 @@ function DescriptionMobile(props) {
             <div className='flex flex-col justify-between gap-6'>
                 <div>
                     <p className='text-base'>
-                        <strong>Code</strong> ${props.code}
+                        <strong>Code</strong> {props.code}
                     </p>
                     <p className='text-base'>
-                        <strong>Layout</strong> ${props.layout}
+                        <strong>Layout</strong> {props.layout}
                     </p>
                 </div>
 

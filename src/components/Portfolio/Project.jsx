@@ -7,7 +7,7 @@ function PortfolioProject(props) {
         <div className='relative aspect-w-16 aspect-h-9 sm:aspect-h-9 md:aspect-w-1 md:aspect-h-1 lg:aspect-w-16 lg:aspect-h-9 rounded-sm group'>
             <div className={`${props.bgDefaultClass} md:${props.bgSquareClass} lg:${props.bgDefaultClass} bg-cover bg-no-repeat bg-center border border-primary-darkLight rounded-sm`}>
                 {/* Info Icon Start */}
-                <div className='absolute z-10 flex justify-end items-end bottom-1 right-2 pointer-events-none opacity-90 group-hover:opacity-0 transition-opacity ease-in-out'>
+                <div className='hidden absolute z-10 sm:flex justify-end items-end bottom-1 right-2 pointer-events-none opacity-90 group-hover:opacity-0 transition-opacity ease-in-out'>
                     <svg className='w-6 h-6' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
                         <title>Information Circle</title>
                         <path strokeWidth='32' strokeMiterlimit='10' stroke='#C47BD6' fill='#171321' d='m248,64c-101.61,0 -184,82.39 -184,184s82.39,184 184,184s184,-82.39 184,-184s-82.39,-184 -184,-184z' />
@@ -19,19 +19,9 @@ function PortfolioProject(props) {
                 </div>
                 {/* Info Icon End */}
                 {/* Overlay Start */}
-                <div className='hidden sm:flex flex-col justify-center w-full h-full bg-gray-900/95 p-4 rounded-sm opacity-0 group-hover:opacity-100 duration-500 ease-out'>
-                    <h3 className='font-bold'>{props.title}</h3>
-                    <p className='py-8' dangerouslySetInnerHTML={{ __html: props.description }}></p>
-                    <div className='flex justify-between items-end'>
-                        <div>
-                            <p className='text-base'>
-                                <strong>Code</strong> {props.code}
-                            </p>
-                            <p className='text-base'>
-                                <strong>Layout</strong> {props.layout}
-                            </p>
-                        </div>
-
+                <div className='hidden sm:flex flex-col justify-center w-full h-full bg-primary-dark/[0.97] p-4 rounded-sm opacity-0 group-hover:opacity-100 duration-500 ease-out'>
+                    <div className='flex gap-10 items-center'>
+                        <h3 className='font-bold'>{props.title}</h3>
                         <div className='flex justify-center items-center gap-4 mr-4'>
                             <a target='_blank' href={props.githubLink} aria-label="Visite the project's GitHub-Repo" rel='noopener noreferrer'>
                                 <svg className='w-8 h-8 fill-current text-primary-purple hover:text-primary-lightPurple hover:scale-105 transition-all ease-in-out duration-300' aria-hidden='true' focusable='false' role='img' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 496 512'>
@@ -45,6 +35,16 @@ function PortfolioProject(props) {
                                 </svg>
                             </a>
                         </div>
+                    </div>
+                    <p className='pt-6 pb-8' dangerouslySetInnerHTML={{ __html: props.description }}></p>
+
+                    <div>
+                        <p className='text-base'>
+                            <strong>Code</strong> {props.code}
+                        </p>
+                        <p className='text-base'>
+                            <strong>Layout</strong> {props.layout}
+                        </p>
                     </div>
                 </div>
                 {/* Overlay End */}

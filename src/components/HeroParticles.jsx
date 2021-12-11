@@ -2,13 +2,11 @@ import Particles from 'react-tsparticles';
 
 function HeroParticles(props) {
     const particlesInit = (main) => {
-        console.log(main);
-
         // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
     };
 
     const particlesLoaded = (container) => {
-        console.log(container);
+        // Loaded Note
     };
     return (
         <Particles
@@ -84,22 +82,9 @@ function HeroParticles(props) {
                                 opacity: 0.1,
                             },
                         },
-                        bubble: {
-                            distance: 500,
-                            size: 40,
-                            duration: 2,
-                            opacity: 0.1,
-                            speed: 3,
-                        },
-                        repulse: {
-                            distance: 200,
-                            duration: 0.4,
-                        },
+                       
                         push: {
                             particles_nb: 4,
-                        },
-                        remove: {
-                            particles_nb: 2,
                         },
                     },
                 },
