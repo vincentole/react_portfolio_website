@@ -77,12 +77,9 @@ function HeroParticles(props) {
                     },
                     modes: {
                         grab: {
-                            distance: 140,
-                            line_linked: {
-                                opacity: 0.1,
-                            },
+                            distance: 120,
                         },
-                       
+
                         push: {
                             particles_nb: 4,
                         },
