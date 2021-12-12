@@ -1,5 +1,23 @@
 module.exports = {
-    content: ['./src/**/*.{html,css,js,jsx}', './public/**/*.html'],
+    content: ['./src/**/*.{html,js,jsx}', './public/**/*.html'],
+    safelist: [
+        'md:bg-project-1',
+        'md:bg-project-1-square',
+        'md:bg-project-2',
+        'md:bg-project-2-square',
+        'md:bg-project-3',
+        'md:bg-project-3-square',
+        'md:bg-project-4',
+        'md:bg-project-4-square',
+        'lg:bg-project-1',
+        'lg:bg-project-1-square',
+        'lg:bg-project-2',
+        'lg:bg-project-2-square',
+        'lg:bg-project-3',
+        'lg:bg-project-3-square',
+        'lg:bg-project-4',
+        'lg:bg-project-4-square',
+    ],
     theme: {
         screens: {
             xs: '450px',

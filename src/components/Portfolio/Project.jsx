@@ -4,6 +4,7 @@ import { svgGitHub, svgEye } from '../icons';
 
 function PortfolioProject(props) {
     return (
+       
         //  Project 1 Start
         // aspect needs to be specified on the parent and only have one child
         <div className='relative aspect-w-16 aspect-h-9 sm:aspect-h-9 md:aspect-w-1 md:aspect-h-1 lg:aspect-w-16 lg:aspect-h-9 rounded-sm group'>

@@ -16,6 +16,7 @@ function HeroParticles(props) {
             style={{ position: 'absolute', inset: 0 }}
             options={{
                 fullScreen: false,
+                pauseOnOutsideViewport: true,
                 particles: {
                     number: {
                         value: 80,
@@ -53,12 +54,16 @@ function HeroParticles(props) {
                         direction: 'none',
                         random: false,
                         straight: false,
-                        out_mode: 'out',
+                        outModes: {
+                            default: 'out',
+                        },
                         bounce: false,
                         attract: {
                             enable: false,
-                            rotateX: 600,
-                            rotateY: 1200,
+                            rotate: {
+                                x: 600,
+                                y: 1200,
+                            },
                         },
                     },
                 },
@@ -78,6 +83,9 @@ function HeroParticles(props) {
                     modes: {
                         grab: {
                             distance: 120,
+                            links: {
+                                color: '#2E2239',
+                            },
                         },
 
                         push: {
