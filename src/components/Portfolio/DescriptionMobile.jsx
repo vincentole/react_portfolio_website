@@ -5,7 +5,7 @@ import { svgGitHub, svgEye } from '../icons';
 function DescriptionMobile(props) {
     return (
         // Overlay Below - SM Media Start
-        <div className='flex sm:hidden flex-col justify-center bg-gray-900/95 p-4 mb-10 rounded-sm'>
+        <div className='flex sm:hidden flex-col justify-center bg-primary-darklighter p-4 mb-10 rounded-sm'>
             <h3 className='font-bold'>{props.title}</h3>
             <p className='py-8' dangerouslySetInnerHTML={{ __html: props.description }}></p>
             <div className='flex flex-col justify-between gap-6'>

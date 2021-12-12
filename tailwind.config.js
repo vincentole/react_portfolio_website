@@ -1,5 +1,5 @@
 module.exports = {
-    content: ['./src/**/*.{html,js,jsx}', './public/**/*.html'],
+    content: ['./src/**/*.{html,js,jsx}', './public/**/*.{html,js}'],
     safelist: [
         'md:bg-project-1',
         'md:bg-project-1-square',
@@ -30,21 +30,19 @@ module.exports = {
         extend: {
             colors: {
                 primary: {
-                    dark: '#171321',
-                    darkLight: '#484255',
-                    desatBlack: '#201D26',
-                    yellow: '#FFE742',
-                    lightBlue: '#87fffb',
-                    purple: '#C47BD6',
-                    purplestrong: '#902FA8',
-                    purpledark: '#A653BB',
-                    purplelight: '#DEAAEB',
+                    darklight: 'hsl(259, 13%, 30%)',
+                    darklighter: 'hsl(257, 27%, 13%)', 
+                    dark:      'hsl(257, 27%, 10%)',
+                    darkblack: 'hsl(257, 27%, 9%)',
+                    yellow: 'hsl(52, 100%, 63%)',
+                    purplelight: 'hsl(288, 62%, 79%)',
+                    purple:      'hsl(288, 53%, 66%)',
+                    purpledark:  'hsl(288, 43%, 53%)',
                 },
             },
             outline: {
                 dark: '1px solid #171321',
-                darkLight: '1px solid #484255',
-                desatBlack: '1px solid #201D26',
+                darklight: '1px solid #484255',
                 yellow: '1px solid #FFE742',
                 purple: '1px solid #C47BD6',
             },

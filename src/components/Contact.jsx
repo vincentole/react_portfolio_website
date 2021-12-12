@@ -3,7 +3,7 @@ import React from 'react';
 function Contact() {
     return (
         //  Contact Start
-        <section id='contact' className='section flex justify-center items-center border-none'>
+        <section id='contact' className='section flex justify-center items-center border-none bg-primary-darkblack'>
             {/* Text Box Start  */}
             <div className='max-w-lg px-8'>
                 <span className='text-html -ml-4'>&lt;h2&gt;</span>
@@ -58,7 +58,7 @@ function Contact() {
                     </button>
                 </form>
                 {/* Form End  */}
-                <span className='block font-architectsDaughter text-sm text-primary-darkLight -ml-4'>&lt;/form&gt;</span>
+                <span className='block font-architectsDaughter text-sm text-primary-darklight -ml-4'>&lt;/form&gt;</span>
             </div>
             {/* Text Box End  */}
         </section>

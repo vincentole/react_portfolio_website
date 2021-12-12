@@ -8,7 +8,7 @@ function PortfolioProject(props) {
         //  Project 1 Start
         // aspect needs to be specified on the parent and only have one child
         <div className='relative aspect-w-16 aspect-h-9 sm:aspect-h-9 md:aspect-w-1 md:aspect-h-1 lg:aspect-w-16 lg:aspect-h-9 rounded-sm group'>
-            <div className={`${props.bgDefaultClass} md:${props.bgSquareClass} lg:${props.bgDefaultClass} bg-cover bg-no-repeat bg-center border border-primary-darkLight rounded-sm`}>
+            <div className={`${props.bgDefaultClass} md:${props.bgSquareClass} lg:${props.bgDefaultClass} bg-cover bg-no-repeat bg-center border border-primary-darklight rounded-sm`}>
                 {/* Info Icon Start */}
                 <div className='hidden absolute z-10 sm:flex justify-end items-end bottom-1 right-2 pointer-events-none opacity-90 group-hover:opacity-0 transition-opacity ease-in-out'>
                     <svg className='w-6 h-6' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>

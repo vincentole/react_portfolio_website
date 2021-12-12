@@ -6,7 +6,7 @@ import pfData from '../../data/portfolioData';
 function Portfolio() {
     return (
         //  Portfolio Start
-        <section id='portfolio' className='section'>
+        <section id='portfolio' className='section bg-primary-darkblack'>
             {/* Container Start  */}
             <div className='container-cstm'>
                 <h2 className='section-heading'>Some Things, That I've Built</h2>

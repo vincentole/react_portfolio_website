@@ -7,7 +7,7 @@ import { svgGitHub, svgLinkedIn, svgEmail } from './icons';
 function Bio() {
     return (
         //   Bio Start
-        <section id='about' className='section'>
+        <section id='about' className='section bg-primary-darkblack'>
             {/* Container Start */}
             <div className='container-cstm'>
                 <h2 className='section-heading'>Some Things About Me</h2>

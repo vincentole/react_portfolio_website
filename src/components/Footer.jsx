@@ -6,7 +6,7 @@ import { svgGitHub, svgLinkedIn, svgEmail } from './icons';
 function Footer() {
     return (
         //  Footer Start
-        <footer className='font-sourceCodePro text-center border-t-4 border-solid border-primary-yellow border-image-rainbow overflow-hidden'>
+        <footer className='font-sourceCodePro text-center border-t-4 bg-primary-dark border-solid border-primary-yellow border-image-rainbow overflow-hidden'>
             {/* Conatiner Start */}
             <div className='container-cstm flex flex-col sm:flex-row items-center justify-between'>
                 {/* Credits Start */}

@@ -30,7 +30,7 @@
     }
 
     .text-html {
-        @apply pointer-events-none block font-architectsDaughter text-sm md:text-base text-primary-darkLight;
+        @apply pointer-events-none block font-architectsDaughter text-sm md:text-base text-primary-darklight;
     }
 
     .nav-item-last-span {

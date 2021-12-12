@@ -1,22 +1,33 @@
-import React, { useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import HeroParticles from './HeroParticles';
 import HeroLetter from './HeroLetter';
 
 function Hero() {
-     const [particlesSwitch, setParticlesSwitch] = useState(true);
+    const [particlesSwitch, setParticlesSwitch] = useState(false);
 
-     function handleParticleBtn() {
-         setParticlesSwitch(prev => !prev);
-     }
-    
+    function handleParticleBtn() {
+        setParticlesSwitch(prev => !prev);
+    }
     return (
         // Hero Text Start
-        <section id='hero-section' className='section relative flex justify-center items-center'>
+        <section
+            id='hero-section'
+            className='section relative flex justify-center items-center bg-primary-darkblack'
+        >
             {/* Particles Start */}
-            <button onClick={handleParticleBtn} className='absolute top-4 right-6 w-8 h-4 flex items-center bg-primary-darkLight py-[2px] rounded-full z-10 group'>
-                <div className={`w-4 h-4 bg-primary-purplelight rounded-full ${particlesSwitch && 'translate-x-4 !bg-primary-purpledark'} transition-all duration-500 ease-out`}></div>
+            <button
+                onClick={handleParticleBtn}
+                className='absolute top-4 right-6 w-8 h-4 flex items-center bg-primary-darklight py-[2px] rounded-full z-10 group'
+            >
+                <div
+                    className={`w-4 h-4 bg-primary-purplelight rounded-full ${
+                        particlesSwitch && 'translate-x-4 !bg-primary-purpledark'
+                    } transition-all duration-500 ease-out`}
+                ></div>
             </button>
-            {particlesSwitch && <HeroParticles />}
+            {particlesSwitch && (
+                <HeroParticles />
+            )}
             {/* Particles End */}
             {/* Text Box Start */}
             <div className='z-10 inline-block px-8 pointer-events-none'>
