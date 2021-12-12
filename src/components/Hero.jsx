@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useState } from 'react';
 import HeroParticles from './HeroParticles';
 import HeroLetter from './HeroLetter';
 
@@ -6,8 +6,9 @@ function Hero() {
     const [particlesSwitch, setParticlesSwitch] = useState(false);
 
     function handleParticleBtn() {
-        setParticlesSwitch(prev => !prev);
+        setParticlesSwitch((prev) => !prev);
     }
+
     return (
         // Hero Text Start
         <section
@@ -25,9 +26,7 @@ function Hero() {
                     } transition-all duration-500 ease-out`}
                 ></div>
             </button>
-            {particlesSwitch && (
-                <HeroParticles />
-            )}
+            {particlesSwitch && <HeroParticles />}
             {/* Particles End */}
             {/* Text Box Start */}
             <div className='z-10 inline-block px-8 pointer-events-none'>
