@@ -76,7 +76,7 @@
 
 <br />
 
-React Portfolio Website is a practice project showcasing design and development of a portfolio website. The website is a single page application devided into multiple sections with smooth/custom animations, project showcase, and fun visual interactions. Concrete features are, for example, the ability to switched tsParticles on and off, a smooth scroll to page sections, the appearance-transition of the navbar based on the scroll direction.
+React Portfolio Website is a practice project showcasing design and development capabilities. The website is a single page application divided into multiple sections with smooth/custom animations, project showcase, and fun visual interactions. Concrete features are, for example, the ability to switch tsParticles on and off, a smooth scroll to page sections, the appearance-transition of the navbar based on the scroll direction.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -94,7 +94,7 @@ React Portfolio Website is a practice project showcasing design and development 
 
 I present to you my first small project using React.js and TailwindCSS.
 
-In this section, I highlight some few code snippets that I find valuable. Please refer to the [section below](#roadmap--continued-development) for more concepts and features I implemented.
+In this section, I highlight a few code snippets that I find valuable. Please refer to the [section below](#roadmap--continued-development) for more concepts and features I implemented.
 
 #### Animation
 
@@ -157,7 +157,7 @@ function handleParticleBtn() {
 -   [x] Transitions
 -   [x] Smooth Scroll
 -   [x] External library integration
--   [x] Abstraction of content into data object.
+-   [x] Abstraction of content into data objects.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
