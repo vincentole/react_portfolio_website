@@ -217,7 +217,7 @@ yarn start
 
 ## License
 
-Distributed under the MIT License. See `github/LICENSE.md` for more information.
+Distributed under the MIT License. See `github/LICENSE.txt` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -254,7 +254,7 @@ Project Link: [https://github.com/vincentole/react_portfolio_website](https://gi
 [issues-shield]: https://img.shields.io/github/issues/vincentole/react_portfolio_website.svg?style=for-the-badge
 [issues-url]: https://github.com/vincentole/react_portfolio_website/issues
 [license-shield]: https://img.shields.io/github/license/vincentole/react_portfolio_website.svg?style=for-the-badge
-[license-url]: https://github.com/vincentole/react_portfolio_website/blob/master/LICENSE.txt
+[license-url]: https://github.com/vincentole/react_portfolio_website/blob/master/github/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/ole-urfels
 [product-screenshot]: github/preview.png
