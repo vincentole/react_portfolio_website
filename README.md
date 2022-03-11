@@ -26,7 +26,7 @@
 <h3 align="center">React Portfolio Website</h3>
 
   <p align="center">
-    A responsive and interactive portfolio website with a project showcase section.
+    A responsive and interactive portfolio website with a project showcase section and custom animations.
     <br />
     <br />
     <a href="https://github.com/vincentole/react_portfolio_website"><strong>Explore the code »</strong></a>
@@ -76,7 +76,7 @@
 
 <br />
 
-Rustica Coffee Website is a website with an integrated store. The coffee shop is imaginary and the project was created for learning purposes. The website has a contact form integrated with formspree and formik, a random products section, a store subpage (among others), as well as an interactive shopping cart. In addition, the site is fully responsive and uses Next.js's integrated image optimization. The products' data is pulled from graphcms via their GraphQL API.
+React Portfolio Website is a practice project showcasing design and development of a portfolio website. The website is a single page application devided into multiple sections with smooth/custom animations, project showcase, and fun visual interactions. Concrete features are, for example, the ability to switched tsParticles on and off, a smooth scroll to page sections, the appearance-transition of the navbar based on the scroll direction.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -116,7 +116,16 @@ Animating each letter separately.
 Using tsParticles to include interactive background animations.
 
 ```jsx
-{/* Particles Start */}
+// ...
+const [particlesSwitch, setParticlesSwitch] = useState(false);
+
+function handleParticleBtn() {
+    setParticlesSwitch((prev) => !prev);
+}
+// ...
+{
+    /* Particles Start */
+}
 <button
     onClick={handleParticleBtn}
     className='absolute top-4 right-6 w-8 h-4 flex items-center bg-primary-darklight py-[2px] rounded-full z-10 group'
@@ -126,9 +135,14 @@ Using tsParticles to include interactive background animations.
             particlesSwitch && 'translate-x-4 !bg-primary-purpledark'
         } transition-all duration-500 ease-out`}
     ></div>
-</button>
-{particlesSwitch && <HeroParticles />}
-{/* Particles End */}
+</button>;
+{
+    particlesSwitch && <HeroParticles />;
+}
+{
+    /* Particles End */
+}
+// ...
 ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -139,7 +153,7 @@ Using tsParticles to include interactive background animations.
 
 -   [x] Coherent and appealing design
 -   [x] Reusable components
--   [x] Animations
+-   [x] Custom Animations
 -   [x] Transitions
 -   [x] Smooth Scroll
 -   [x] External library integration
@@ -162,7 +176,7 @@ To get a local copy up and running follow these steps.
         git clone https://github.com/vincentole/react_portfolio_website.git
         ```
 
-4.  Install packages
+2.  Install packages
     <br/>
 
     npm
@@ -215,7 +229,6 @@ Ole Urfels (vincentole):
 
 -   [LinkedIn](https://www.linkedin.com/in/ole-urfels/)
 -   [@vincent_ole](https://twitter.com/@vincent_ole)
-
 
 Project Link: [https://github.com/vincentole/react_portfolio_website](https://github.com/vincentole/react_portfolio_website)
 
