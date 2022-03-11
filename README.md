@@ -84,7 +84,7 @@ React Portfolio Website is a practice project showcasing design and development 
 
 -   [React.js](https://reactjs.org/)
 -   [TailwindCSS](https://tailwindcss.com/)
--   [tsParticles](https://particles.js.org/)
+-   [tsParticles.js](https://particles.js.org/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
