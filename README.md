@@ -20,7 +20,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/vincentole/react_portfolio_website">
-    <img src="github/Logo.png" alt="Logo" width="80" height="80">
+    <img src="github/Logo.png" alt="Logo" width="50" height="50">
   </a>
 
 <h3 align="center">React Portfolio Website</h3>
